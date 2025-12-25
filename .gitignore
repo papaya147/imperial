@@ -21,4 +21,6 @@ journal.txt
 
 docker
 
-__pycache__
+__pycache__\
+mongodb_data
+.DS_Store
