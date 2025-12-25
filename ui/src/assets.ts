@@ -129,9 +129,9 @@ road[ROAD.ISLAND_L] = roadIslandL;
 
 /******************** House *******************************************/
 
-import houseRed from "../public/assets/house/house-red.png";
-import houseBlue from "../public/assets/house/house-blue.png";
-import houseGreen from "../public/assets/house/house-green.png";
+import houseRed from "../public/assets/house/house-red.svg";
+import houseBlue from "../public/assets/house/house-blue.svg";
+import houseGreen from "../public/assets/house/house-green.svg";
 import houseYellow from "../public/assets/house/house-yellow.png";
 import housePlum from "../public/assets/house/house-plum.png";
 import houseCyan from "../public/assets/house/house-cyan.png";
@@ -147,7 +147,7 @@ export const house: { [key: string]: StaticImageData } = {
 
 /******************** City *******************************************/
 
-import cityRed from "../public/assets/city/city-red.png";
+import cityRed from "../public/assets/city/city-red.svg";
 import cityBlue from "../public/assets/city/city-blue.png";
 import cityGreen from "../public/assets/city/city-green.png";
 import cityYellow from "../public/assets/city/city-yellow.png";
@@ -456,11 +456,11 @@ export const diceEvent: { [key: number]: StaticImageData } = {
 /****************** Cards *********************************************/
 
 import cards0 from "../public/assets/cards/0.jpg";
-import cards1 from "../public/assets/cards/1.jpg";
-import cards2 from "../public/assets/cards/2.jpg";
-import cards3 from "../public/assets/cards/3.jpg";
-import cards4 from "../public/assets/cards/4.jpg";
-import cards5 from "../public/assets/cards/5.jpg";
+import cards1 from "../public/assets/cards/1.svg";
+import cards2 from "../public/assets/cards/2.svg";
+import cards3 from "../public/assets/cards/3.svg";
+import cards4 from "../public/assets/cards/4.svg";
+import cards5 from "../public/assets/cards/5.svg";
 import cards6 from "../public/assets/cards/6.jpg";
 import cards7 from "../public/assets/cards/7.jpg";
 import cards8 from "../public/assets/cards/8.jpg";

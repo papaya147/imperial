@@ -18,11 +18,11 @@ import port5 from "../public/assets/ports/5.png";
 import port6 from "../public/assets/ports/6.png";
 
 import cards0 from "../public/assets/cards/0.jpg";
-import cards1 from "../public/assets/cards/1.jpg";
-import cards2 from "../public/assets/cards/2.jpg";
-import cards3 from "../public/assets/cards/3.jpg";
-import cards4 from "../public/assets/cards/4.jpg";
-import cards5 from "../public/assets/cards/5.jpg";
+import cards1 from "../public/assets/cards/1.svg";
+import cards2 from "../public/assets/cards/2.svg";
+import cards3 from "../public/assets/cards/3.svg";
+import cards4 from "../public/assets/cards/4.svg";
+import cards5 from "../public/assets/cards/5.svg";
 import cards6 from "../public/assets/cards/6.jpg";
 import cards7 from "../public/assets/cards/7.jpg";
 import cards8 from "../public/assets/cards/8.jpg";
