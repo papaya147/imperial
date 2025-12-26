@@ -71,7 +71,7 @@ export async function render(
         redDiceInner.on("pointerdown", rollDice);
         diceContainer.addChild(redDiceSprite);
         redDiceSprite.addChild(redDiceInner);
-        redDiceSprite.addChild(getBorder(SIZE));
+        // redDiceSprite.addChild(getBorder(SIZE));
 
         whiteDiceSprite = new PIXI.Sprite();
         whiteDiceInner = new PIXI.Sprite();
@@ -83,7 +83,7 @@ export async function render(
         whiteDiceInner.on("pointerdown", rollDice);
         diceContainer.addChild(whiteDiceSprite);
         whiteDiceSprite.addChild(whiteDiceInner);
-        whiteDiceSprite.addChild(getBorder(SIZE));
+        // whiteDiceSprite.addChild(getBorder(SIZE));
 
         diceContainer.pivot.x = (whiteDiceInner.width + whiteDiceSprite.x) / 2;
         diceContainer.pivot.y = whiteDiceInner.height / 2;
@@ -98,7 +98,7 @@ export async function render(
         eventDiceSprite.y = -SIZE + 10;
         diceContainer.addChild(eventDiceSprite);
         eventDiceSprite.addChild(eventDiceInner);
-        eventDiceSprite.addChild(getBorder((SIZE * 2) / 3));
+        // eventDiceSprite.addChild(getBorder((SIZE * 2) / 3));
     }
 
     assets.assignTexture(redDiceInner, assets.diceRed[redRoll]);
