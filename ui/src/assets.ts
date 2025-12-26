@@ -168,9 +168,9 @@ export const city: { [key: string]: StaticImageData } = {
 import knight1Red from "../public/assets/knight/1-red.svg";
 import knight1Blue from "../public/assets/knight/1-blue.svg";
 import knight1Green from "../public/assets/knight/1-green.svg";
-import knight1Yellow from "../public/assets/knight/1-yellow.png";
-import knight1Plum from "../public/assets/knight/1-plum.png";
-import knight1Cyan from "../public/assets/knight/1-cyan.png";
+import knight1Yellow from "../public/assets/knight/1-yellow.svg";
+import knight1Plum from "../public/assets/knight/1-plum.svg";
+import knight1Cyan from "../public/assets/knight/1-cyan.svg";
 import knight2Red from "../public/assets/knight/2-red.svg";
 import knight2Blue from "../public/assets/knight/2-blue.svg";
 import knight2Green from "../public/assets/knight/2-green.svg";
