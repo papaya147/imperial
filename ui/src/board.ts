@@ -597,7 +597,7 @@ export function renderPort(port: IPort) {
 
     const portSprite = new PIXI.Sprite();
     assets.assignTexture(portSprite, assets.ports[port.Type]);
-    portSprite.scale.set(0.25);
+    portSprite.scale.set(0.075);
     portSprite.anchor.x = 0.5;
     portSprite.anchor.y = 0.5;
     portContainer.addChild(portSprite);
