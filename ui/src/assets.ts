@@ -132,9 +132,9 @@ road[ROAD.ISLAND_L] = roadIslandL;
 import houseRed from "../public/assets/house/house-red.svg";
 import houseBlue from "../public/assets/house/house-blue.svg";
 import houseGreen from "../public/assets/house/house-green.svg";
-import houseYellow from "../public/assets/house/house-yellow.png";
-import housePlum from "../public/assets/house/house-plum.png";
-import houseCyan from "../public/assets/house/house-cyan.png";
+import houseYellow from "../public/assets/house/house-yellow.svg";
+import housePlum from "../public/assets/house/house-plum.svg";
+import houseCyan from "../public/assets/house/house-cyan.svg";
 
 export const house: { [key: string]: StaticImageData } = {
     red: houseRed,
@@ -150,9 +150,9 @@ export const house: { [key: string]: StaticImageData } = {
 import cityRed from "../public/assets/city/city-red.svg";
 import cityBlue from "../public/assets/city/city-blue.svg";
 import cityGreen from "../public/assets/city/city-green.svg";
-import cityYellow from "../public/assets/city/city-yellow.png";
-import cityPlum from "../public/assets/city/city-plum.png";
-import cityCyan from "../public/assets/city/city-cyan.png";
+import cityYellow from "../public/assets/city/city-yellow.svg";
+import cityPlum from "../public/assets/city/city-plum.svg";
+import cityCyan from "../public/assets/city/city-cyan.svg";
 
 export const city: { [key: string]: StaticImageData } = {
     red: cityRed,
@@ -174,15 +174,15 @@ import knight1Cyan from "../public/assets/knight/1-cyan.png";
 import knight2Red from "../public/assets/knight/2-red.svg";
 import knight2Blue from "../public/assets/knight/2-blue.svg";
 import knight2Green from "../public/assets/knight/2-green.svg";
-import knight2Yellow from "../public/assets/knight/2-yellow.png";
-import knight2Plum from "../public/assets/knight/2-plum.png";
-import knight2Cyan from "../public/assets/knight/2-cyan.png";
+import knight2Yellow from "../public/assets/knight/2-yellow.svg";
+import knight2Plum from "../public/assets/knight/2-plum.svg";
+import knight2Cyan from "../public/assets/knight/2-cyan.svg";
 import knight3Red from "../public/assets/knight/3-red.svg";
 import knight3Blue from "../public/assets/knight/3-blue.svg";
 import knight3Green from "../public/assets/knight/3-green.svg";
-import knight3Yellow from "../public/assets/knight/3-yellow.png";
-import knight3Plum from "../public/assets/knight/3-plum.png";
-import knight3Cyan from "../public/assets/knight/3-cyan.png";
+import knight3Yellow from "../public/assets/knight/3-yellow.svg";
+import knight3Plum from "../public/assets/knight/3-plum.svg";
+import knight3Cyan from "../public/assets/knight/3-cyan.svg";
 
 import knightDisabledS from "../public/assets/knight/disabled.svg";
 export const knightDisabled = knightDisabledS;
@@ -217,12 +217,12 @@ export const knight: { [level: number]: { [color: string]: StaticImageData } } =
 
 /******************************* Merchant *****************************/
 
-import merchantRed from "../public/assets/merchant/red.png";
-import merchantBlue from "../public/assets/merchant/blue.png";
-import merchantGreen from "../public/assets/merchant/green.png";
-import merchantYellow from "../public/assets/merchant/yellow.png";
-import merchantPlum from "../public/assets/merchant/plum.png";
-import merchantCyan from "../public/assets/merchant/cyan.png";
+import merchantRed from "../public/assets/merchant/red.svg";
+import merchantBlue from "../public/assets/merchant/blue.svg";
+import merchantGreen from "../public/assets/merchant/green.svg";
+import merchantYellow from "../public/assets/merchant/yellow.svg";
+import merchantPlum from "../public/assets/merchant/plum.svg";
+import merchantCyan from "../public/assets/merchant/cyan.svg";
 
 export const merchant: { [key: string]: StaticImageData } = {
     red: merchantRed,
