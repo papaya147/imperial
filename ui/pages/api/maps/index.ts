@@ -1,7 +1,8 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from "next";
 import { getUserIdFromEmail, mapsList, setMap } from "../../../utils/mango";
-import { getSession } from "next-auth/react";
+import { getServerSession } from "next-auth/next";
+import { authOptions } from "../auth/[...nextauth]";
 
 type Data = {
     maps?: any;
@@ -9,7 +10,7 @@ type Data = {
 };
 
 async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
-    const session = await getSession({ req });
+    const session = await getServerSession(req, res, authOptions);
     const uId = session?.user?.email
         ? await getUserIdFromEmail(session.user.email)
         : "";
