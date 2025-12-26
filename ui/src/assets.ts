@@ -74,11 +74,11 @@ export function assignTexture(
 
 /************************* Tile Textures *******************************/
 import tileTex0 from "../public/assets/tile-tex/0.jpg";
-import tileTex1 from "../public/assets/tile-tex/1.jpg";
-import tileTex2 from "../public/assets/tile-tex/2.jpg";
-import tileTex3 from "../public/assets/tile-tex/3.jpg";
-import tileTex4 from "../public/assets/tile-tex/4.jpg";
-import tileTex5 from "../public/assets/tile-tex/5.jpg";
+import tileTex1 from "../public/assets/tile-tex/1.png";
+import tileTex2 from "../public/assets/tile-tex/2.png";
+import tileTex3 from "../public/assets/tile-tex/3.png";
+import tileTex4 from "../public/assets/tile-tex/4.png";
+import tileTex5 from "../public/assets/tile-tex/5.png";
 import tileTex21 from "../public/assets/tile-tex/21.jpg";
 import tileTexFog from "../public/assets/tile-tex/fog.jpg";
 

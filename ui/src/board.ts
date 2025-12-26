@@ -274,11 +274,28 @@ export async function renderTile(tile: UITile) {
     const S3B2 = Math.sqrt(3) / 2;
     const texType = tile.Fog ? assets.TILE_TEX.FOG : tile.Type;
 
+    const tex = PIXI.Assets.get(assets.tileTex[texType].src);
+
+    // 1. Calculate the scale needed so the image height matches the hex height
+    // Your hex height is HEX_DIAG * 2
+    const targetHeight = HEX_DIAG * 2;
+    const scale = targetHeight / tex.height;
+
+    // 2. Create a matrix to center and scale the texture
+    const matrix = new PIXI.Matrix();
+    matrix.scale(scale, scale);
+
+    // 3. Translate the texture so its center aligns with SIDE_HALF (300)
+    // We subtract half the scaled dimension from the center point
+    matrix.tx = SIDE_HALF - (tex.width * scale) / 2;
+    matrix.ty = SIDE_HALF - (tex.height * scale) / 2;
+
     const hex = new PIXI.Graphics()
         .beginTextureFill({
-            texture: PIXI.Assets.get(assets.tileTex[texType].src),
+            texture: tex,
+            matrix: matrix,
         })
-        .drawPolygon(
+        .drawPolygon([
             SIDE_HALF,
             SIDE_HALF - HEX_DIAG,
             SIDE_HALF + HEX_DIAG * S3B2,
@@ -293,7 +310,7 @@ export async function renderTile(tile: UITile) {
             SIDE_HALF - HEX_DIAG / 2,
             SIDE_HALF,
             SIDE_HALF - HEX_DIAG,
-        )
+        ])
         .endFill();
 
     const tileSprite = new PIXI.Sprite();
