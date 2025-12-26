@@ -411,22 +411,22 @@ export const buttonsBg: { [key: string]: StaticImageData } = {
 };
 
 /************************* Dice ************************************/
-import diceW1 from "../public/assets/dice/dice-1.png";
-import diceW2 from "../public/assets/dice/dice-2.png";
-import diceW3 from "../public/assets/dice/dice-3.png";
-import diceW4 from "../public/assets/dice/dice-4.png";
-import diceW5 from "../public/assets/dice/dice-5.png";
-import diceW6 from "../public/assets/dice/dice-6.png";
-import diceR1 from "../public/assets/dice/dice-1-r.png";
-import diceR2 from "../public/assets/dice/dice-2-r.png";
-import diceR3 from "../public/assets/dice/dice-3-r.png";
-import diceR4 from "../public/assets/dice/dice-4-r.png";
-import diceR5 from "../public/assets/dice/dice-5-r.png";
-import diceR6 from "../public/assets/dice/dice-6-r.png";
-import diceE1 from "../public/assets/dice/event-1.png";
-import diceE2 from "../public/assets/dice/event-2.png";
-import diceE3 from "../public/assets/dice/event-3.png";
-import diceE4 from "../public/assets/dice/event-4.png";
+import diceW1 from "../public/assets/dice/dice-1.svg";
+import diceW2 from "../public/assets/dice/dice-2.svg";
+import diceW3 from "../public/assets/dice/dice-3.svg";
+import diceW4 from "../public/assets/dice/dice-4.svg";
+import diceW5 from "../public/assets/dice/dice-5.svg";
+import diceW6 from "../public/assets/dice/dice-6.svg";
+import diceR1 from "../public/assets/dice/dice-1-r.svg";
+import diceR2 from "../public/assets/dice/dice-2-r.svg";
+import diceR3 from "../public/assets/dice/dice-3-r.svg";
+import diceR4 from "../public/assets/dice/dice-4-r.svg";
+import diceR5 from "../public/assets/dice/dice-5-r.svg";
+import diceR6 from "../public/assets/dice/dice-6-r.svg";
+import diceE1 from "../public/assets/dice/event-1.svg";
+import diceE2 from "../public/assets/dice/event-2.svg";
+import diceE3 from "../public/assets/dice/event-3.svg";
+import diceE4 from "../public/assets/dice/event-4.svg";
 
 export const diceWhite: { [key: number]: StaticImageData } = {
     1: diceW1,
