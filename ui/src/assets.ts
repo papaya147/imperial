@@ -397,9 +397,9 @@ export const buttons: { [key in ButtonType]: StaticImageData } = {
 import buttonsBgRed from "../public/assets/buttons/bg/red.svg";
 import buttonsBgBlue from "../public/assets/buttons/bg/blue.svg";
 import buttonsBgGreen from "../public/assets/buttons/bg/green.svg";
-import buttonsBgYellow from "../public/assets/buttons/bg/yellow.jpg";
-import buttonsBgPlum from "../public/assets/buttons/bg/plum.jpg";
-import buttonsBgCyan from "../public/assets/buttons/bg/cyan.jpg";
+import buttonsBgYellow from "../public/assets/buttons/bg/yellow.svg";
+import buttonsBgPlum from "../public/assets/buttons/bg/plum.svg";
+import buttonsBgCyan from "../public/assets/buttons/bg/cyan.svg";
 
 export const buttonsBg: { [key: string]: StaticImageData } = {
     red: buttonsBgRed,
