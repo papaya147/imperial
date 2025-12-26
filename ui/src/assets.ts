@@ -104,9 +104,9 @@ import roadIslandL from "../public/assets/tile-tex/island-l.png";
 import roadRed from "../public/assets/tile-tex/road-red.svg";
 import roadBlue from "../public/assets/tile-tex/road-blue.svg";
 import roadGreen from "../public/assets/tile-tex/road-green.svg";
-import roadYellow from "../public/assets/tile-tex/road-yellow.png";
-import roadPlum from "../public/assets/tile-tex/road-plum.png";
-import roadCyan from "../public/assets/tile-tex/road-cyan.png";
+import roadYellow from "../public/assets/tile-tex/road-yellow.svg";
+import roadPlum from "../public/assets/tile-tex/road-plum.svg";
+import roadCyan from "../public/assets/tile-tex/road-cyan.svg";
 
 export enum ROAD {
     ROAD = "road",
