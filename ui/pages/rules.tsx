@@ -2,7 +2,7 @@ import { NextPage } from "next";
 import Header from "../components/header";
 
 import tileTex0 from "../public/assets/tile-tex/0.jpg";
-import tileTex1 from "../public/assets/tile-tex/1.jpg";
+import tileTex1 from "../public/assets/tile-tex/1.png";
 import tileTex2 from "../public/assets/tile-tex/2.png";
 import tileTex3 from "../public/assets/tile-tex/3.png";
 import tileTex4 from "../public/assets/tile-tex/4.png";
